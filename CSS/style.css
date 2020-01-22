@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Chicle");
+@import url("https://fonts.googleapis.com/css?family=Knewave&display=swap");
+@media screen and (min-width: 320px) and (max-width: 670px) {
+  body .menu .row .col h1 {
+    color: #fff;
+    font-family: "Abril Fatface", cursive;
+    font-size: 14px;
+  }
+  body .menu .row .col ul {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0px;
+    font-family: "Chicle", cursive;
+  }
+  body .menu .row .col ul a {
+    color: #B9BABD;
+  }
+  body .menu .row .col ul a li {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  body .menu .row .col ul a li i {
+    color: #B9BABD;
+  }
+  body .menu .row .col ul a:hover {
+    color: #ea8032;
+    text-decoration: none;
+  }
+  body .menu .row .col ul a:hover i {
+    color: #ea8032;
+  }
+  body .pos-f-t nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  body .pos-f-t nav .fa-bars {
+    color: #fff;
+  }
+  body .pos-f-t nav .fa-bars:hover {
+    color: #ea8032;
+  }
+  body .pos-f-t nav a i {
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    color: #fff;
+  }
+  body .pos-f-t nav a strong {
+    color: #fff;
+  }
+  body .pos-f-t nav a:hover i {
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #ea8032;
+  }
+  body .pos-f-t nav a:hover strong {
+    color: #fff;
+  }
+  body .pos-f-t nav a:hover strong span {
+    color: #ea8032;
+  }
+  body #home {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ea8032;
+    margin: 0;
+  }
+  body #home #myVideo {
+    z-index: -5;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: auto;
+    min-height: 100vh;
+  }
+  body #home h1 {
+    font-family: "Knewave", cursive;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-size: 48px;
+  }
+  body #home h2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    font-family: "Chicle" cursive;
+    font-size: 14px;
+  }
+  body #home a {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+  }
+  body #home a .btn-custom {
+    border: 3px #ea8032 solid;
+    border-radius: 50%;
+    background-color: transparent;
+    height: 56px;
+    width: 56px;
+  }
+  body #home a .btn-custom i {
+    font-size: 24px;
+    color: #ea8032;
+  }
+  body #home a:hover {
+    cursor: pointer;
+  }
+  body #home a:hover .btn-custom {
+    transition: 0.5s;
+    border: 3px #ea8032 solid;
+    background-color: #ea8032;
+  }
+  body #home a:hover .btn-custom i {
+    transition: 0.5s;
+    color: #fff;
+  }
+  body #about {
+    margin: 0;
+    background-color: #ea8032;
+    color: #fff;
+  }
+  body #about .container-fluid {
+    height: 70vh;
+    background: url("../IMG/hands.png") no-repeat;
+    background-size: cover;
+    padding: 20px;
+  }
+  body #about .container-fluid .row .who {
+    font-size: 32px;
+  }
+  body #about .container-fluid .row .intro {
+    width: auto;
+    margin: 20px;
+    font-size: 16px;
+  }
+  body #about .container-fluid .row button {
+    margin: 5%;
+    background-color: #fff;
+    color: #ea8032;
+    border: none;
+  }
+  body #about .container-fluid .row button:hover {
+    background-color: #ea8032;
+    color: #fff;
+  }
+  body #about .container-fluid .row img {
+    width: 200px;
+    height: 200px;
+  }
+  body #about .container-fluid .row span {
+    font-size: 14px;
+    color: #ea8032;
+  }
+  body #about .feeds {
+    background-color: #000;
+    padding-bottom: 20px;
+  }
+  body #about .feeds .feed-element {
+    padding: 20px;
+  }
+  body #about .feeds .feed-element .row {
+    margin: 20px;
+  }
+  body #about .feeds .feed-element .row .col {
+    margin-bottom: 20px;
+  }
+  body #about .feeds .feed-element .row .col a {
+    transition: ease-in 0.7s;
+  }
+  body #about .feeds .feed-element .row .col a h3 {
+    display: block;
+    position: absolute;
+    margin: 5% 60%;
+    color: #ea8032;
+    font-size: 14px;
+  }
+  body #about .feeds .feed-element .row .col a .hover-see {
+    display: none;
+  }
+  body #about .feeds .feed-element .row .col a img {
+    width: 300px;
+    height: 200px;
+  }
+  body #works {
+    color: #fff;
+    background-color: #000;
+    padding-bottom: 20px;
+  }
+  body #works .container .row {
+    margin: 20px;
+  }
+  body #works .container .row .col {
+    margin-bottom: 20px;
+  }
+  body #works .container .row .col .card {
+    height: 300px;
+    background-color: #ea8032;
+  }
+  body #contact {
+    background-color: #000;
+    color: #fff;
+  }
+  body #contact .container-fluid {
+    background: url("../IMG/handsrev.png") no-repeat;
+    background-size: cover;
+    background-position: 20% 30%;
+    height: 100vh;
+  }
+  body #contact .container-fluid .row {
+    padding-top: 320px;
+  }
+  body #contact .container-fluid .row .col-sm-12 {
+    padding-top: 30px;
+  }
+  body #contact .container-fluid .row .col-sm-12 h2 {
+    font-size: 32px;
+  }
+  body #contact .container-fluid .row .col-sm-12 h3 {
+    font-size: 14px;
+  }
+  body #contact .container-fluid .row .col-sm-12 button {
+    color: #ea8032;
+    background-color: #fff;
+    border: 2px #fff solid;
+    border-radius: 5%;
+  }
+  body footer {
+    background-color: #ea8032;
+    color: #fff;
+  }
+  body footer h4 {
+    margin: 0;
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+@media screen and (min-width: 671px) and (max-width: 1920px) {
+  body .menu .row .col h1 {
+    color: #fff;
+    font-family: "Abril Fatface", cursive;
+    font-size: 33px;
+  }
+  body .menu .row .col ul {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0px;
+    font-family: "Chicle", cursive;
+  }
+  body .menu .row .col ul a {
+    color: #B9BABD;
+  }
+  body .menu .row .col ul a li {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  body .menu .row .col ul a li i {
+    color: #B9BABD;
+  }
+  body .menu .row .col ul a:hover {
+    color: #ea8032;
+    text-decoration: none;
+  }
+  body .menu .row .col ul a:hover i {
+    color: #ea8032;
+  }
+  body .pos-f-t nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  body .pos-f-t nav .fa-bars {
+    color: #fff;
+  }
+  body .pos-f-t nav .fa-bars:hover {
+    color: #ea8032;
+  }
+  body .pos-f-t nav a i {
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    color: #fff;
+  }
+  body .pos-f-t nav a strong {
+    color: #fff;
+  }
+  body .pos-f-t nav a:hover i {
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #ea8032;
+  }
+  body .pos-f-t nav a:hover strong {
+    color: #fff;
+  }
+  body .pos-f-t nav a:hover strong span {
+    color: #ea8032;
+  }
+  body #home {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ea8032;
+    margin: 0;
+  }
+  body #home #myVideo {
+    z-index: -5;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: auto;
+    min-height: 100vh;
+  }
+  body #home h1 {
+    font-family: "Knewave", cursive;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-size: 72px;
+  }
+  body #home h1 .c {
+    font-size: 72px;
+  }
+  body #home h2 {
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    font-family: "Chicle" cursive;
+    font-size: 24px;
+  }
+  body #home a {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+  }
+  body #home a .btn-custom {
+    border: 3px #ea8032 solid;
+    border-radius: 50%;
+    background-color: transparent;
+    height: 56px;
+    width: 56px;
+  }
+  body #home a .btn-custom i {
+    font-size: 24px;
+    color: #ea8032;
+  }
+  body #home a:hover {
+    cursor: pointer;
+  }
+  body #home a:hover .btn-custom {
+    transition: 0.5s;
+    border: 3px #ea8032 solid;
+    background-color: #ea8032;
+  }
+  body #home a:hover .btn-custom i {
+    transition: 0.5s;
+    color: #fff;
+  }
+  body #about {
+    margin: 0;
+    background-color: #ea8032;
+    color: #fff;
+  }
+  body #about .container-fluid {
+    height: 100vh;
+    background: url("../IMG/hands.png") no-repeat;
+    background-size: cover;
+    padding: 50px;
+  }
+  body #about .container-fluid .who {
+    font-size: 48px;
+  }
+  body #about .container-fluid .intro {
+    width: 400px;
+    margin: 20px;
+    font-size: 28px;
+  }
+  body #about .container-fluid button {
+    margin: 5%;
+    background-color: #fff;
+    color: #ea8032;
+    border: none;
+  }
+  body #about .container-fluid button:hover {
+    background-color: #ea8032;
+    color: #fff;
+  }
+  body #about .container-fluid span {
+    font-size: 24px;
+  }
+  body #about .feeds {
+    background-color: #000;
+    padding-bottom: 50px;
+  }
+  body #about .feeds .feed-element {
+    padding: 20px;
+  }
+  body #about .feeds .feed-element .row {
+    margin: 20px;
+  }
+  body #about .feeds .feed-element .row a {
+    transition: ease-in 0.7s;
+  }
+  body #about .feeds .feed-element .row a h3 {
+    display: none;
+  }
+  body #about .feeds .feed-element .row a .hover-see {
+    display: none;
+  }
+  body #about .feeds .feed-element .row a img {
+    width: 500px;
+    height: 320px;
+  }
+  body #about .feeds .feed-element .row a:hover h3 {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    margin: 25% 35%;
+    color: #fff;
+  }
+  body #about .feeds .feed-element .row a:hover .hover-see {
+    color: #fff;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    height: 270px;
+    width: 440px;
+    position: absolute;
+    z-index: 1;
+    margin: 5% 5%;
+  }
+  body #works {
+    color: #fff;
+    background-color: #000;
+    padding-bottom: 20px;
+  }
+  body #works .container .row {
+    margin: 20px;
+  }
+  body #works .container .row .card {
+    height: 300px;
+    background-color: #ea8032;
+  }
+  body #contact {
+    background-color: #000;
+    color: #fff;
+  }
+  body #contact .container-fluid {
+    background: url("../IMG/handsrev.png") no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 500px;
+  }
+  body #contact .container-fluid .row {
+    padding-top: 200px;
+  }
+  body #contact .container-fluid .row .col-md-6 button {
+    color: #fff;
+    background-color: transparent;
+    border: 2px #fff solid;
+  }
+  body #contact .container-fluid .row .col-md-6 button:hover {
+    background-color: #000;
+    border: 2px #000 solid;
+  }
+  body footer {
+    background-color: #ea8032;
+    color: #fff;
+  }
+  body footer h4 {
+    margin: 0;
+    padding-bottom: 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
